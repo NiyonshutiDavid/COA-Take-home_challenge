@@ -6,12 +6,25 @@ This repository contains my solution to the Interactive Photo Gallery and the tw
 ### Interactive Photo Gallery
 
 The interactive photo gallery is implemented using HTML, CSS, and JavaScript. It adapts seamlessly to different screen sizes and devices, matching the provided Figma designs pixel-perfectly.
+### Project structure
+`
+COA-Take-home_challenge/
+│
+├── index.html           # HTML file for the interactive photo gallery
+├── styles.css           # CSS file for styling the gallery
+├── script.js            # JavaScript file for gallery functionality
+├── arrayMap.js          # JavaScript file for the solution to Challenge 1
+├── stringTransform.js   # JavaScript file for the solution to Challenge 2
+│
+├── README.md            # README file with setup instructions and explanations
+└── img/                 # Directory for gallery images
+`
 
 #### Setup Instructions:
 
 1. Clone the repository to your local machine:
     ```
-    git clone https://github.com/your-username/photo-gallery.git
+    git clone https://github.com/NiyonshutiDavid/COA-Take-home_challenge.git
     ```
 
 2. Open `index.html` in your preferred web browser to view the interactive photo gallery.

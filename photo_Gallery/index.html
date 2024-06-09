@@ -4,42 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Photo Gallery</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styling.css">
 </head>
 <body>
-    <div class="gallery">
-        <div class="thumbnail" data-full="image1.jpg">
-            <img src="thumb1.jpg" alt="Fennec Fox">
-            <p class="label">FENNEC FOX</p>
-            <p class="location">India</p>
-            <button class="know-more">Know more</button>
-        </div>
-        <div class="thumbnail" data-full="image2.jpg">
-            <img src="thumb2.jpg" alt="Humpback Whale">
-            <p class="label">HUMPBACK WHALE</p>
-            <p class="location">South Africa</p>
-            <button class="know-more">Know more</button>
-        </div>
-        <div class="thumbnail" data-full="image3.jpg">
-            <img src="thumb3.jpg" alt="Common Brown Baboon">
-            <p class="label">COMMON BROWN BABOON</p>
-            <p class="location">South Africa</p>
-            <button class="know-more">Know more</button>
-        </div>
-        <div class="thumbnail" data-full="image4.jpg">
-            <img src="thumb4.jpg" alt="Spotted Deer">
-            <p class="label">SPOTTED DEER</p>
-            <p class="location">Armenia</p>
-            <button class="know-more">Know more</button>
+    <!-- The container div will hold the entire gallery -->
+    <div class="container">
+        
+        <!-- The gallery div will hold the individual gallery items -->
+        <div class="gallery">
+            <!-- Thumbnail images with overlays will be inserted here dynamically by JavaScript -->
+            <!-- Each gallery item will be a <div> with class "gallery-item" -->
         </div>
     </div>
-    <div class="full-size-view">
-        <img id="full-image" src="" alt="">
-    </div>
-    <div class="zoom-level">
-        <p>Zoom Level: <span id="zoom-value">100%</span></p>
-    </div>
-    <script src="script.js"></script>
+    <!-- The script.js file contains the JavaScript code that creates the gallery dynamically -->
+    <script src="scripts/script.js"></script>
 </body>
 </html>
+
+<!--
+This HTML file is the main entry point for the Interactive Photo Gallery.
+It includes the necessary CSS styles and JavaScript code to dynamically create the gallery.
+
+The gallery items are inserted into the DOM using JavaScript, based on an array of images with their source, title, and location.
+When a gallery item is clicked, a modal will open with the full-size image, its title, and location.
+The gallery items will have an overlay that shows the title and location when the cursor hovers over them.
+The gallery items will animate smoothly when the cursor hovers over them, and they will react to touch input on mobile devices.
+-->
+
+<!--
+@file Interactive Photo Gallery
+@description This file contains the HTML code for the main entry point of the Interactive Photo Gallery.
+-->
 

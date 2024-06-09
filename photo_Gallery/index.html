@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <div class="thumbnail" data-full="image1.jpg">
+            <img src="thumb1.jpg" alt="Fennec Fox">
+            <p class="label">FENNEC FOX</p>
+            <p class="location">India</p>
+            <button class="know-more">Know more</button>
+        </div>
+        <div class="thumbnail" data-full="image2.jpg">
+            <img src="thumb2.jpg" alt="Humpback Whale">
+            <p class="label">HUMPBACK WHALE</p>
+            <p class="location">South Africa</p>
+            <button class="know-more">Know more</button>
+        </div>
+        <div class="thumbnail" data-full="image3.jpg">
+            <img src="thumb3.jpg" alt="Common Brown Baboon">
+            <p class="label">COMMON BROWN BABOON</p>
+            <p class="location">South Africa</p>
+            <button class="know-more">Know more</button>
+        </div>
+        <div class="thumbnail" data-full="image4.jpg">
+            <img src="thumb4.jpg" alt="Spotted Deer">
+            <p class="label">SPOTTED DEER</p>
+            <p class="location">Armenia</p>
+            <button class="know-more">Know more</button>
+        </div>
+    </div>
+    <div class="full-size-view">
+        <img id="full-image" src="" alt="">
+    </div>
+    <div class="zoom-level">
+        <p>Zoom Level: <span id="zoom-value">100%</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

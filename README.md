@@ -40,6 +40,8 @@ COA-Take-home_challenge/
 - Responsive design for desktop and mobile views.
 - Hover interaction to display additional details when hovering over a photo.
 - Cross-browser compatibility ensured for Chrome, Firefox, Safari, and Edge.
+![image](https://github.com/NiyonshutiDavid/COA-Take-home_challenge/assets/144002340/e97d5e6a-b085-4395-aff5-95bcd0c0d9a8)
+
 
 ### Coding Challenges
 
